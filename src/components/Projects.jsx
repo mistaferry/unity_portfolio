@@ -12,11 +12,10 @@ function Projects(){
             type: "University Team Project",
             description: "Dragon Soup is a fantasy tavern management game developed as a long-term university team project. The player manages a tavern while searching for a cure to a mysterious disease, sending adventurers on quests, collecting ingredients and cooking recipes.",
             contribution: [
-                "Player movement, hotbar and item interaction systems",
-                "Cooking and progression systems",
-                "Game menus and save/load system",
-                "Git workflow, merge conflict resolution and feature integration",
-                "Gameplay testing and bug fixing"
+                "Built interaction, inventory, recipe, UI, save/load, progression, cutscene, and settings systems in Unity.",
+                "Worked with another Unity developer to integrate gameplay features and resolve system conflicts.",
+                "Tested new builds, reproduced bugs, and fixed issues across interconnected systems.",
+                "Helped prepare stable builds for user playtesting and evaluation."
             ],
             tags: ["Unity", "C#", "Game Development"],
             github: "https://github.com/DLuckYD/dragon-soup-game",
@@ -29,10 +28,9 @@ function Projects(){
             type: "University Team Project",
             description: "Fishy Game is a horde survival game where the player explores different ocean depths, fights increasingly dangerous enemies and develops their character through passive progression and upgrades. The game is controlled using a custom-built hardware controller with buttons, sliders, screen and LEDs.",
             contribution: [
-                "Enemy progression and spawning systems",
-                "Enemy navigation and horde behavior",
-                "Player passive progression",
-                "Player health and upgrade systems"
+                "Developed enemy spawning, horde behaviour, navigation, and progression systems.",
+                "Implemented gameplay logic for a custom physical controller.",
+                "Tested controller input/output behaviour, including slider values and LED feedback, to verify correct communication with the game."
             ],
             tags: ["Unity", "C#", "Arduino"],
             github: "https://github.com/DLuckYD/Fishy-Game",
@@ -45,8 +43,9 @@ function Projects(){
             type: "University Team Project",
             description: "Last Try is an experimental strategy game built around eye tracking as the primary input method. The player must quickly observe and memorize available soldiers, assemble an army and make decisions under time pressure using their gaze to interact with the game.",
             contribution: [
-                "Implementation of all core gameplay systems",
-                "Tobii Eye Tracker 5 integration for gaze-based gameplay"
+                "Integrated Tobii Eye Tracker as the primary input method.",
+                "Implemented gaze-based gameplay interactions.",
+                "Tested gaze input to improve stability and responsiveness."
             ],
             tags: ["Unity", "C#", "Eye Tracking"],
             github: "https://github.com/DLuckYD/last-try-game",
