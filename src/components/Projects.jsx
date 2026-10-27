@@ -10,14 +10,17 @@ function Projects(){
             image: dragonSoupCover,
             title: "Dragon Soup",
             type: "University Team Project",
-            description: "Dragon Soup is a fantasy tavern management game developed as a long-term university team project. The player manages a tavern while searching for a cure to a mysterious disease, sending adventurers on quests, collecting ingredients and cooking recipes.",
+            period: "10/2025 – Present",
+            teamSize: "6 team members",
+            role: "Unity Developer",
+            description: "Dragon Soup is a fantasy tavern management game where players run a tavern, send adventurers on quests, collect ingredients, and cook recipes while searching for a cure to a mysterious disease.",
             contribution: [
-                "Built interaction, inventory, recipe, UI, save/load, progression, cutscene, and settings systems in Unity.",
-                "Worked with another Unity developer to integrate gameplay features and resolve system conflicts.",
-                "Tested new builds, reproduced bugs, and fixed issues across interconnected systems.",
-                "Helped prepare stable builds for user playtesting and evaluation."
+                "Developed gameplay systems including item interactions, inventory with a 9-slot hotbar and stacking, a cooking minigame, and recipe progression.",
+                "Implemented supporting systems such as save/load with autosave and manual save slots, UI, audio/video settings, input rebinding, and video cutscene integration.",
+                "Collaborated with another Unity developer to integrate gameplay features and resolve issues between interconnected systems.",
+                "Tested gameplay features, reproduced bugs, and fixed issues during development."
             ],
-            tags: ["Unity", "C#", "Game Development"],
+            tags: ["Unity", "C#", "Git"],
             github: "https://github.com/DLuckYD/dragon-soup-game",
             youtube: "https://www.youtube.com/watch?v=Md8u-3zo31Y"
         },
@@ -26,13 +29,17 @@ function Projects(){
             image: fishyGameCover,
             title: "Fishy Game",
             type: "University Team Project",
-            description: "Fishy Game is a horde survival game where the player explores different ocean depths, fights increasingly dangerous enemies and develops their character through passive progression and upgrades. The game is controlled using a custom-built hardware controller with buttons, sliders, screen and LEDs.",
+            period: "03/2026 – 06/2026",
+            teamSize: "5 team members",
+            role: "Unity Developer",
+            description: "Fishy Game is a 2D underwater horde survival game where players explore different ocean depths, fight increasingly dangerous enemies, and improve their character through upgrades. The game uses a custom-built Arduino controller with buttons, sliders, a display, and LEDs.",
             contribution: [
-                "Developed enemy spawning, horde behaviour, navigation, and progression systems.",
-                "Implemented gameplay logic for a custom physical controller.",
-                "Tested controller input/output behaviour, including slider values and LED feedback, to verify correct communication with the game."
+                "Developed enemy spawning and horde behaviour systems, including depth-based difficulty, spawn budgets, and off-screen enemy spawning.",
+                "Implemented enemy navigation using Unity NavMesh and developed player progression systems.",
+                "Developed gameplay logic to control hardware feedback, including LED behaviour based on in-game events.",
+                "Tested controller inputs and outputs, including slider values and LED feedback, to verify correct behaviour in the game."
             ],
-            tags: ["Unity", "C#", "Arduino"],
+            tags: ["Unity", "C#", "Arduino", "Git"],
             github: "https://github.com/DLuckYD/Fishy-Game",
             youtube: "https://youtu.be/YpTqSrJ9CFw"
         },
@@ -41,13 +48,16 @@ function Projects(){
             image: lastTryCover,
             title: "Last Try",
             type: "University Team Project",
+            period: "10/2025 – 01/2026",
+            teamSize: "3 team members",
+            role: "Unity Developer",
             description: "Last Try is an experimental strategy game built around eye tracking as the primary input method. The player must quickly observe and memorize available soldiers, assemble an army and make decisions under time pressure using their gaze to interact with the game.",
             contribution: [
-                "Integrated Tobii Eye Tracker as the primary input method.",
-                "Implemented gaze-based gameplay interactions.",
-                "Tested gaze input to improve stability and responsiveness."
+                "Integrated the Tobii Eye Tracker 5 into Unity as the game's primary input method.",
+                "Developed gaze-based soldier selection, allowing players to target units with their eyes and confirm recruitment using a key press.",
+                "Tested gaze-based interactions to check input stability and responsiveness."
             ],
-            tags: ["Unity", "C#", "Eye Tracking"],
+            tags: ["Unity", "C#", "Tobii Eye Tracker 5", "Unity Version Control"],
             github: "https://github.com/DLuckYD/last-try-game",
             youtube: "https://www.youtube.com/watch?v=XY3OSFbURMw"
         }
@@ -67,6 +77,9 @@ function Projects(){
                         image={project.image}
                         title={project.title}
                         type={project.type}
+                        period={project.period}
+                        teamSize={project.teamSize}
+                        role={project.role}
                         description={project.description}
                         contribution={project.contribution}
                         tags={project.tags}

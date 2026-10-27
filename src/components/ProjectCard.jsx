@@ -1,11 +1,14 @@
 import "/src/styles/ProjectCard.css";
-import { FaGithub, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaCalendarAlt, FaUsers, FaCode } from "react-icons/fa";
 import { useState } from "react";
 
 function ProjectCard({
                          image,
                          title,
                          type,
+                         period,
+                         teamSize,
+                         role,
                          description,
                          contribution,
                          tags,
@@ -31,6 +34,12 @@ function ProjectCard({
                 <span className="project-card-type">{type}</span>
 
                 <h3 className="project-card-title">{title}</h3>
+
+                <div className="project-card-meta">
+                    <span><FaCalendarAlt /> {period}</span>
+                    <span><FaUsers /> {teamSize}</span>
+                    <span><FaCode /> {role}</span>
+                </div>
 
                 <p className="project-card-description">
                     {description}

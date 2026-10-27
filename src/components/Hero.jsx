@@ -15,7 +15,8 @@ function Hero() {
                 <h1>Iryna Huryn</h1>
 
                 <p className="hero-description">
-                    I'm a Master's student in Game Technologies. I enjoy creating games because they can give people new experiences and emotions that they wouldn't normally have in everyday life.
+                    {/*I'm a Master's student in Game Technologies. I enjoy creating games because they can give people new experiences and emotions that they wouldn't normally have in everyday life.*/}
+                    I'm a Master's student in Game Technologies at Hochschule Bonn-Rhein-Sieg, focusing on gameplay programming with Unity and C#. I enjoy creating games because they let people live through moments and feelings they wouldn’t encounter in everyday life.
                 </p>
 
                 <div className="hero-stack">

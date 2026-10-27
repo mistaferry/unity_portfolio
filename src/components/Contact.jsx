@@ -1,5 +1,6 @@
 import "/src/styles/Contact.css";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 import { useForm } from "@formspree/react";
 
 function Contact() {
@@ -20,6 +21,11 @@ function Contact() {
                     </p>
 
                     <div className="contact-socials">
+                        <a href="mailto:hia.huryn@gmail.com">
+                            <FiMail />
+                            <span>Email</span>
+                        </a>
+
                         <a href="https://www.linkedin.com/in/ihuryn/" target="_blank" rel="noreferrer">
                             <FaLinkedin />
                             <span>LinkedIn</span>
